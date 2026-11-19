@@ -38,3 +38,6 @@ tunedeck-gui = "tunedeck_gui.__main__:main"
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["jblpc*", "tunedeck_gui*"]
+
+[tool.setuptools.package-data]
+tunedeck_gui = ["assets/*.png", "assets/devices/*.jpg"]
